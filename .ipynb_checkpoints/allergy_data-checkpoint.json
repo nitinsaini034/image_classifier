@@ -1,0 +1,293 @@
+{
+  "food_allergies" : [
+     {
+        "name": "Burger",
+        "description": "An allergy to ingredients commonly found in burgers, such as beef, bread, and condiments like ketchup or mustard.",
+        "common_symptoms": ["Hives", "Swelling of the face, lips, tongue, or throat", "Difficulty breathing", "Nausea or vomiting", "Abdominal pain", "Diarrhea"],
+        "Symptoms": {
+          "Hives": 50,
+          "Swelling": 80,
+          "Difficulty breathing": 80,
+          "Nausea or vomiting": 50,
+          "Abdominal pain": 20,
+          "Diarrhea": 20
+        },
+        "avoidance_tips": ["Read ingredient labels carefully", "Ask about ingredients when dining out", "Consider alternatives like veggie burgers"]
+      },
+      {
+        "name": "French Fries",
+        "description": "An allergy to potatoes or certain oils used in frying.",
+        "common_symptoms": ["Hives", "Swelling of the face, lips, tongue, or throat", "Difficulty breathing", "Nausea or vomiting", "Abdominal pain", "Diarrhea"],
+        "Symptoms": {
+          "Hives": 50,
+          "Swelling": 70,
+          "Difficulty breathing": 70,
+          "Nausea or vomiting": 50,
+          "Abdominal pain": 30,
+          "Diarrhea": 30
+        },
+        "avoidance_tips": ["Inquire about the type of oil used for frying", "Consider alternatives like sweet potato fries or other sides"]
+      },
+      {
+        "name": "Pizza",
+        "description": "An allergy to ingredients commonly found in pizza, such as cheese, wheat in the crust, and tomato sauce.",
+        "common_symptoms": ["Hives", "Swelling of the face, lips, tongue, or throat", "Difficulty breathing", "Nausea or vomiting", "Abdominal pain", "Diarrhea"],
+        "Symptoms": {
+          "Hives": 60,
+          "Swelling": 80,
+          "Difficulty breathing": 80,
+          "Nausea or vomiting": 60,
+          "Abdominal pain": 40,
+          "Diarrhea": 40
+        },
+        "avoidance_tips": ["Opt for cheeseless or dairy-free pizza options", "Consider gluten-free crust alternatives", "Choose pizzas with alternative sauces like pesto"]
+      },
+      {
+        "name": "momos",
+        "description": "An allergy to ingredients commonly found in momos, such as wheat flour for the dough and various fillings like meat or vegetables.",
+        "common_symptoms": ["Hives", "Swelling of the face, lips, tongue, or throat", "Difficulty breathing", "Nausea or vomiting", "Abdominal pain", "Diarrhea"],
+        "Symptoms": {
+          "Hives": 60,
+          "Swelling": 80,
+          "Difficulty breathing": 80,
+          "Nausea or vomiting": 60,
+          "Abdominal pain": 40,
+          "Diarrhea": 40
+        },
+        "avoidance_tips": ["Ask about ingredients when ordering", "Consider making homemade momos with allergy-friendly ingredients", "Opt for momos with alternative fillings"]
+      },
+      {
+        "name": "noodles",
+        "description": "An allergy to ingredients commonly found in noodles, such as wheat or eggs.",
+        "common_symptoms": ["Hives", "Swelling of the face, lips, tongue, or throat", "Difficulty breathing", "Nausea or vomiting", "Abdominal pain", "Diarrhea"],
+        "Symptoms": {
+          "Hives": 60,
+          "Swelling": 70,
+          "Difficulty breathing": 70,
+          "Nausea or vomiting": 60,
+          "Abdominal pain": 40,
+          "Diarrhea": 40
+        },
+        "avoidance_tips": ["Choose rice noodles or noodles made from alternative grains like rice or buckwheat", "Read labels carefully for hidden wheat or egg ingredients"]
+      },
+      {
+        "name": "pasta",
+        "description": "An allergy to ingredients commonly found in pasta, such as wheat in the pasta dough and ingredients in the sauce.",
+        "common_symptoms": ["Hives", "Swelling of the face, lips, tongue, or throat", "Difficulty breathing", "Nausea or vomiting", "Abdominal pain", "Diarrhea"],
+        "Symptoms": {
+          "Hives": 60,
+          "Swelling": 70,
+          "Difficulty breathing": 70,
+          "Nausea or vomiting": 60,
+          "Abdominal pain": 40,
+          "Diarrhea": 40
+        },
+        "avoidance_tips": ["Opt for gluten-free pasta options made from alternative grains like rice or corn", "Choose pasta sauces without common allergens like tomatoes or cheese"]
+      },
+      {
+        "name": "tomato",
+        "description": "An allergy to tomatoes or tomato-based products.",
+        "common_symptoms": ["Hives", "Swelling of the face, lips, tongue, or throat", "Difficulty breathing", "Nausea or vomiting", "Abdominal pain", "Diarrhea"],
+        "Symptoms": {
+          "Hives": 70,
+          "Swellingt": 80,
+          "Difficulty breathing": 80,
+          "Nausea or vomiting": 70,
+          "Abdominal pain": 50,
+          "Diarrhea": 50
+        },
+        "avoidance_tips": ["Avoid foods containing tomatoes or tomato sauce", "Read ingredient labels carefully", "Opt for alternative sauces like pesto or Alfredo"]
+      },
+      {
+        "name": "Egg",
+        "description": "Egg allergies are common in children and can cause mild to severe reactions.",
+        "common_symptoms": ["Hives", "Swelling", "Stomach cramps", "Nausea", "Vomiting", "Difficulty breathing"],
+        "Symptoms": {
+          "Hives": 80,
+          "Swelling": 70,
+          "Stomach cramps": 60,
+          "Nausea": 70,
+          "Vomiting": 70,
+          "Difficulty breathing": 80
+        },
+        "avoidance_tips": ["Avoid foods containing eggs (e.g., baked goods, mayonnaise, certain sauces)", "Read ingredient labels carefully", "Use egg substitutes in cooking and baking"]
+      },
+      {
+        "name": "soyabean",
+        "description": "Soybean allergies can cause various symptoms, including skin reactions, gastrointestinal issues, and respiratory problems.",
+        "common_symptoms": ["Hives", "Swelling", "Stomach cramps", "Nausea", "Difficulty breathing"],
+        "Symptoms": {
+          "Hives": 70,
+          "Swelling": 60,
+          "Stomach cramps": 50,
+          "Nausea": 60,
+          "Difficulty breathing": 80
+        },
+        "avoidance_tips": ["Read food labels carefully for soy ingredients", "Avoid soy-based products (e.g., tofu, soy sauce, edamame)","Be cautious of hidden soy in processed foods"]
+      },
+      {
+        "name": "Fish",
+        "description": "Fish allergies can cause severe reactions and may develop at any age.",
+        "common_symptoms": ["Hives", "Swelling", "Itching", "Difficulty breathing", "Anaphylaxis"],
+        "Symptoms": {
+          "Hives": 70,
+          "Swelling": 60,
+          "Itching": 50,
+          "Difficulty breathing": 80,
+          "Anaphylaxis": 90
+        },
+        "avoidance_tips": ["Avoid eating fish altogether", "Be cautious of cross-contamination in restaurants", "Read food labels carefully for fish ingredients"]
+      },
+      {
+        "name": "corn",
+        "description": "Corn allergies are less common but can cause various symptoms, including skin reactions and gastrointestinal issues.",
+        "common_symptoms": ["Hives", "Swelling", "Stomach cramps", "Nausea", "Vomiting", "Diarrhea"],
+        "Symptoms": {
+          "Hives": 70,
+          "Swelling": 60,
+          "Stomach cramps": 50,
+          "Nausea": 60,
+          "Vomiting": 60,
+          "Diarrhea": 50
+        },
+        "avoidance_tips": ["Avoid corn and corn-derived products (e.g., corn syrup, cornstarch, cornmeal)", "Read food labels carefully", "Choose alternative grains and sweeteners"]
+      },
+      {
+        "name": "banana",
+        "description": "Banana allergies are less common but can cause various symptoms, including skin reactions and gastrointestinal issues.",
+        "common_symptoms": ["Hives", "Swelling", "Itching", "Stomach cramps", "Nausea", "Vomiting"],
+        "Symptoms": {
+          "Hives": 70,
+          "Swelling": 60,
+          "Itching": 50,
+          "Stomach cramps": 50,
+          "Nausea": 60,
+          "Vomiting": 60
+        },
+        "avoidance_tips": ["Avoid banana and banana-containing products", "Read food labels carefully","Inform others about the allergy to prevent accidental exposure"]
+      },
+      {
+        "name": "rice",
+        "description": "Rice allergies are less common but can cause various symptoms, including skin reactions and gastrointestinal issues.",
+        "common_symptoms": ["Hives", "Swelling", "Itching", "Stomach cramps", "Nausea", "Vomiting"],
+        "Symptoms": {
+          "Hives": 70,
+          "Swelling": 60,
+          "Itching": 50,
+          "Stomach cramps": 50,
+          "Nausea": 60,
+          "Vomiting": 60
+        },
+        "avoidance_tips": ["Avoid rice and rice-containing products","Read food labels carefully", "Inform others about the allergy to prevent accidental exposure"]
+      },
+  
+      {
+        "name": "tea",
+        "description": "Tea allergies are less common but can cause various symptoms, including skin reactions and gastrointestinal issues.",
+        "common_symptoms": ["Hives", "Swelling", "Itching", "Stomach cramps", "Nausea", "Vomiting"],
+        "Symptoms": {
+          "Hives": 70,
+          "Swelling": 60,
+          "Itching": 50,
+          "Stomach cramps": 50,
+          "Nausea": 60,
+          "Vomiting": 60
+        },
+        "avoidance_tips": ["Avoid tea and tea-containing products", "Read food labels carefully", "Inform others about the allergy to prevent accidental exposure"]
+      },
+      {
+        "name": "Apple",
+        "description": "Apples are a popular fruit known for their sweet taste and crisp texture. They are a rich source of fiber and various vitamins and minerals.",
+        "common_symptoms": ["itchy mouth", "hives", "swelling of lips, tongue, or throat", "digestive discomfort"],
+        "Symptoms": {
+          "itchy mouth": 60,
+          "hives": 70,
+          "swelling": 80,
+          "digestive discomfort": 50
+        },
+        "avoidance_tips": ["Avoid consuming raw apples", "Consider cooking or baking apples to denature the allergens", "Read food labels carefully for hidden sources of apples"]
+      },
+      {
+        "name": "Orange",
+        "description": "Oranges are citrus fruits known for their tangy taste and high vitamin C content. They are commonly consumed fresh or in the form of juice.",
+        "common_symptoms": ["itchy skin", "rash", "stomach cramps", "difficulty breathing in severe cases"],
+        "Symptoms": {
+          "itchy skin": 60,
+          "rash": 70,
+          "stomach cramps": 50,
+          "difficulty breathing": 80
+      },
+        "avoidance_tips": ["Be cautious with orange-flavored foods and drinks", "Consider alternative citrus fruits like lemons or limes", "Consult with an allergist for personalized advice"]
+      },
+      {
+        "name": "Coconut",
+        "description": "Coconuts are tropical fruits known for their versatility. They provide coconut water, milk, oil, and flesh, each with unique culinary uses.",
+        "common_symptoms": ["itchy mouth", "swelling of lips, tongue, or throat", "nausea", "diarrhea"],
+        "Symptoms": {
+          "itchy mouth": 60,
+          "swelling": 70,
+          "nausea": 50,
+          "diarrhea": 50
+        },
+        "avoidance_tips": ["Check food labels for coconut-derived ingredients", "Use alternative ingredients like almond or soy milk", "Avoid foods cooked in coconut oil"]
+      },
+      {
+        "name": "Mango",
+        "description": "Mangoes are tropical fruits prized for their sweet and tangy flavor. They are often eaten fresh, dried, or used in smoothies and desserts.",
+        "common_symptoms": ["itchy mouth", "swelling of lips, tongue, or throat", "skin rash or hives", "digestive discomfort"],
+        "Symptoms": {
+          "itchy mouth": 60,
+          "swelling": 70,
+          "skin rash or hives": 70,
+          "digestive discomfort": 50
+        },
+        "avoidance_tips": ["Be cautious with mango-containing products like juices and chutneys", "Wash hands thoroughly after handling mangoes to prevent skin contact", "Consider alternative fruits like papaya or pineapple"]
+      },
+      {
+        "name": "Papaya",
+        "description": "Papayas are tropical fruits with a sweet and musky flavor. They are known for their vibrant orange flesh and black seeds and are often eaten fresh or used in salads and smoothies.",
+        "common_symptoms": ["itchy mouth", "hives", "swelling of lips, tongue, or throat", "digestive discomfort"],
+        "Symptoms": {
+          "itchy mouth": 60,
+          "hives": 70,
+          "swelling": 80,
+          "digestive discomfort": 50
+        },
+        "avoidance_tips": ["Avoid consuming raw papayas if allergic", "Be cautious with papaya-containing skincare products", "Consult with an allergist for personalized advice"]
+      },
+      {
+        "name": "Kiwi",
+        "description": "Kiwi fruits, also known as Chinese gooseberries, are small, fuzzy fruits with a tangy and slightly sweet flavor. They are rich in vitamin C and fiber.",
+        "common_symptoms": ["itchy mouth", "swelling of lips, tongue, or throat", "skin rash or hives", "digestive discomfort"],
+        "Symptoms": {
+          "itchy mouth": 60,
+          "swelling": 70,
+          "skin rash or hives": 70,
+          "digestive discomfort": 50
+        },
+        "avoidance_tips": ["Peel kiwis carefully to minimize exposure to allergens", "Avoid kiwi-flavored foods and drinks", "Consider alternative fruits like strawberries or pineapple"]
+      },
+      {
+        "name": "Grapes",
+        "description": "Grapes allergy is a reaction of the immune system to certain proteins found in grapes. It can manifest as various symptoms, ranging from mild to severe.",
+        "common_symptoms": ["Itchy mouth or throat", "Swelling of the lips, tongue, or throat", "Hives or   rash", "Nausea or vomiting", "Abdominal pain", "Difficulty breathing (in severe cases)"
+        ],
+        "Symptoms": {
+          "Itchy mouth or throat": 60,
+          "Swelling": 70,
+          "Hives or rash": 70,
+          "Nausea or vomiting": 60,
+          "Abdominal pain": 50,
+          "Difficulty breathing": 80
+        },
+        "avoidance_tips": [
+          "Read food labels carefully to avoid products containing grapes or grape derivatives.",
+          "Be cautious when dining out or consuming processed foods, as grapes may be used as ingredients or additives.",
+          "Inform restaurant staff about your allergy to ensure safe food preparation.",
+          "Consider carrying an epinephrine auto-injector (such as an EpiPen) if you have a severe grape allergy."
+        ]
+      }  
+      
+    ]   
+    
+}  
